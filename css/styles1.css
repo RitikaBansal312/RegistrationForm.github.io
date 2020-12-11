@@ -1,0 +1,68 @@
+/*enroll page*/
+body{
+    background: linear-gradient( to top, rgb(71, 69, 69),rgb(236, 222, 222));
+    font: 1em/1.5 sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(56, 68, 78);
+}
+form{
+    margin: 20px auto;
+    width: 320px;
+    color: rgb(61, 65, 68);
+}
+input{
+    padding: 10px;
+    font-size: inherit;
+}
+input[type="text"]{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid rgb(72, 75, 82);
+    background: rgb(216, 215, 168);
+}
+input[type="password"]{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+    background: rgb(255, 254, 210);
+}
+input[type="email"]{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid steelblue;
+    background: rgb(224, 224, 197);
+}
+input[type="radio"]{
+    margin: 0 8px 25px 18px;
+}
+input[type="radio"]:first-child{
+    margin-left: 0;
+}
+input[type="submit"]{
+    width: 344px;
+    height: 45px;
+    border: none;
+    background: rgb(39, 53, 63);
+    color: white;
+}
+input[type="submit"]:focus {
+    width: 344px;
+    height: 45px;
+    border: none;
+    background: white;
+    color: rgb(52, 68, 82);
+}
+input:focus {
+    background: white;
+}
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(52, 68, 82);
+}
